@@ -6,6 +6,8 @@ Para este reto se socilicta realizar el flujograma y pseudocodigo para dos casos
 ![mermaid-diagram-2023-09-15-235216](https://github.com/AndresBustamant/Repo-3/assets/141858005/9b73b77b-ee38-4580-bd42-5f1c50370918)
 posteriormente plantee el pseudocodigo basado en el flujograma anterior:
 
+```pseudocode
+  instrucciones
 n:int 
 n = int(input("Ingrese un numero entero: "))
 inicio
@@ -20,11 +22,13 @@ I=(2, n-1)
        I:I+1
   fin para
 fin
-
+```
 2.posteriormente desarrolle un segundo flujograma para poder calcular una raiz cuadrada a partir del metodo babilonico basado en nociones de aproximacion:
 ![mermaid-diagram-2023-09-16-011741](https://github.com/AndresBustamant/Repo-3/assets/141858005/2725efcd-20bf-42c4-b546-595c8cb5f141)
 ya para finalizar a partir de este flujograma se pantea un pseudocodico consecuente a las instrucciones dadas:
 
+```pseudocode
+  instrucciones
 n = int 
 n = int(input("Ingrese un numero entero: "))
 inicio
@@ -35,3 +39,4 @@ n = int #definir n como el valor dentro de la raiz
     return resultado
 print("la raiz del numero es " + str(n)+ " aproximadamente")
 fin
+```
